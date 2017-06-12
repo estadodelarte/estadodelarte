@@ -1,0 +1,93 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media only screen and (min-width: 992px) {
+	/****Ipad Landscape 1024 Container 970 ****/
+	
+	
+	.c-logo-part ul li{ margin:0 1px;}
+	.form{ margin:0 0 0 20px}
+	
+	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
+	
+}	
+   
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/****Ipad Portrait 768 Container 750 ****/
+	body{ font-size:13px;}
+	p{ line-height:20px ;}
+	.header h1{ font-size:46px;}
+	.main-nav ul li a{ padding:0px;}
+	
+	h2{ font-size:30px}
+	h6{ font-size:16px;}
+	h3{ font-size:20px;}
+	.main-section{ padding:70px 0;}
+	.c-logo-part ul li a{ display:block;}
+	.c-logo-part ul li a img{ display:block;}
+	.form{ margin:0;}
+	.contact-info-box{ margin:0 ;}
+
+	.main-nav{ display:block !important; }
+	
+	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
+	.Portfolio-box{ height:250px;}*/
+	
+	 
+	
+}
+
+@media only screen and (max-width: 767px) {
+	/****Mobile Landscape 480 Container 100% ****/
+	body{ font-size:12px;}
+	h2{ font-size:18px;}
+	h3{ font-size:19px;}
+	h6{ font-size:16px; margin-bottom:40px;}
+	p{ line-height:18px;}
+	
+	.header h1{ font-size:28px;}
+	.header{ padding:80px 0;}
+	
+	.main-nav{ display:none; position:absolute;left:0; width:100%; top:74px; margin:0; flote : none; background-color:#fff;}
+	.main-nav li{ display:block;}
+	.main-nav li.small-logo{ display:none;}
+	.main-nav li a{ display:block; padding:0; border-bottom:none;color:#000000;}
+	.main-nav li a:hover{color:#000000}
+	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
+	.team-leader-box:nth-of-type(3n){ margin:0 auto}
+	.res-nav_click{ display:block;}
+	.c-logo-part ul a{ margin-bottom:5px;}
+	.main-section.team{ padding:60px 0 50px;}
+	.form{ margin:0 30px;}
+	.client-part-haead{ font-size:20px; line-height:30px;}
+	.link{ font-size:14px; padding:10px 25px;}
+	.logo{ width:100px;}
+	
+	
+	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
+	.isotope-item{ width:300px; margin:0px auto;}
+	.isotope{ width:400px; margin:0px auto;}
+	.Portfolio-box{}
+	.portfolioContainer{ width:350px; margin:0px auto !important; } */
+	
+	
+}
+
+
+@media only screen and (max-width: 479px) {
+	/****Mobile Portrait 320 ****/
+	.form{ margin:0}
+	.c-logo-part ul li{ display:block;}
+	.Portfolio-box{max-width:100%; !important; !important;}
+	.Portfolio-box img { max-width:100%;}
+	.portfolioContainer{width:100% !important;} 
+	#story h1{margin:15px auto; !important}
+	#subscribe {padding-right:12px;}
+	#subscribe .subscribe-title{margin-top:-60px;margin-bottom:40px;}
+	#state .state {background-size:cover;background-attachment:center;  width:100%;}
+	#state h2{margin:15px auto;}
+	#estadoapp h2{margin:25vh 20px; text-align:center;}
+	
+}
