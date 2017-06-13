@@ -677,8 +677,7 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  margin-right: auto;
-  margin-left: auto;
+  margin:0;
  
 }
 .container:before,
@@ -697,21 +696,7 @@ pre code {
 .container:after {
   clear: both;
 }
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 100% ;
-  }
-}
+
 .row {
   
 }
@@ -2267,15 +2252,16 @@ fieldset[disabled] .btn-link:focus {
 .btn-block {
 
   display:block;
-  text-align:0;
-  padding-left:0;
-  padding-right:0;
+  text-align:center;
+
+  
 
 
 }
 
 .btn-block + .btn-block {
   margin-top: 5px;
+  margin-bottom:20px;
 }
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
@@ -3264,7 +3250,7 @@ input[type="button"].btn-block {
 
 .input-group .form-control {
   width: 100%;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
   
 
