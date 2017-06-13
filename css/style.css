@@ -1081,7 +1081,7 @@ input[type=date] {
 .footer-bs .footer-brand h2{ margin:0px 0px 10px;}
 .footer-bs .footer-brand p{font-size:11px; color:#000000; }
 
-.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; text-align:left;}
+.footer-bs .footer-nav ul.pages {list-style:none; padding:0px; text-align:left;}
 .footer-bs .footer-nav ul.pages li { padding:2px 0px;}
 .footer-bs .footer-nav ul.pages a { color:#000000; font-weight:bold;font-size: 12px; text-transform:uppercase; }
 .footer-bs .footer-nav h4 {
@@ -1091,7 +1091,7 @@ input[type=date] {
 	margin-bottom:10px;
 }
 
-.footer-bs .footer-nav ul.list { list-style:none; font-size:12px;}
+.footer-bs .footer-nav ul.list { list-style:none; padding:0;font-size:12px;}
 .footer-bs .footer-nav ul.list li { padding:2px 0px;text-align:left;}
 .footer-bs .footer-nav ul.list a { color:#000000; }
 .footer-bs .footer-nav ul.list a:hover { color:#000000; text-decoration:none; }
