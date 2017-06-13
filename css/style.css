@@ -819,7 +819,7 @@ button {
 	background:url('../img/Estadoback.jpg')center;
 	background-size:cover;
 	background-repeat:no-repeat;
-	
+	background-attachment:fixed;
 	
 
 }
