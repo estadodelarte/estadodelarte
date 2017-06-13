@@ -816,10 +816,10 @@ button {
 
 .state {
 
-	background:url('../img/Estadoback.jpg')center center;
+	background:url('../img/Estadoback.jpg')center;
 	background-size:cover;
 	background-repeat:no-repeat;
-	background-attachment:fixed;
+	
 	
 
 }
