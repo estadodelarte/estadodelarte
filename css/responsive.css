@@ -73,7 +73,7 @@
 	#story h1{margin:15px auto; !important}
 	#subscribe {padding-right:12px;}
 	#subscribe .subscribe-title{margin-top:-60px;margin-bottom:40px;}
-	#services .service-titile {padding:0;}
+	#services .service-titile h4{padding:0;}
 	.state {background-size:contain;background-attachment:center;}
 	#state h2{margin:15px auto;}
 	#estadoapp h2{margin:25vh 20px; text-align:center;}
