@@ -809,9 +809,8 @@ button {
 
 .state {
 
-	background:url('../img/Estadoback.jpg')center;
+	background:url('../img/Estadoback.jpg');
 	background-size:cover;
-	background-repeat:no-repeat;
 	background-attachment:fixed;
 }
 
