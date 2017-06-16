@@ -831,12 +831,7 @@ button {
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	
-	
-	
-
 }
-
 
 .state h2{
 
@@ -844,6 +839,15 @@ button {
 	font-size:20px;
 	text-align:center;
    }
+
+
+@media screen and (max-width: 768px) {
+  .state {
+    background-attachment:absolute;
+    background-size:contain;
+   
+  }
+
 
 
 /* Team
