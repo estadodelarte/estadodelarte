@@ -216,7 +216,7 @@ display:block;
 
 text-align:left;
 margin:15% 10px 0px 65%;
-right:0;
+
 
 }
 
@@ -263,8 +263,7 @@ right:0;
 	margin:0;
 	display:block;
 	max-width:100%;
-	opacity:60%;
-}
+	
 
 
 .main-nav{
@@ -273,14 +272,13 @@ right:0;
 	text-align:center;
 	margin:0;
 	display:block;
-	color:transparent;
-	background-color: transparent;
+	
 }
 
 .main-nav li{
 	display:inline-block;
 	margin:-8px 1px;
-	color:transparent;
+	
 }
 
 .main-nav li a{
@@ -305,7 +303,6 @@ right:0;
 	margin:0;
 	display:inline-block;
 	text-align:center;
-	padding:-160px 0px;
 	padding-left:20px;
 	
 }
