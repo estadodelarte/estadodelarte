@@ -135,22 +135,6 @@ h6{
 }
 
 
-/* Header Styles
----------------------------------*/
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
 .header
 {
 
@@ -1138,11 +1122,20 @@ input[type=date] {
 	border-bottom-left-radius: 6px;
 }
 
+
 .footer-brand {
 
-	margin-top:40px;
-
+	margin-top:20px;
+	
 }
+
+.footer-logo {
+	margin:0;
+	display:block;
+	padding-bottom:10px;
+}
+
+
 
 
 .footer-brand img{
