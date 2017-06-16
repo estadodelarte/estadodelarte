@@ -839,12 +839,19 @@ button {
    }
 
 
-
-
   .dark-wrapper {
     background: #f3f3f3;
 }
 
+.dark-wrapper h3{
+    color:#000000;
+
+}
+
+.light-wrapper h3{
+    color:#000000;
+
+}
 
 .light-wrapper{
     background: #fcfcfc;
