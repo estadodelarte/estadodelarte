@@ -847,9 +847,23 @@ button {
    
   }
 
+  .dark-wrapper {
+    background: #f3f3f3;
+}
+
+
+.light-wrapper{
+    background: #fcfcfc;
+}
+
 .inner {
     padding-top: 90px;
     padding-bottom: 90px;
+}
+
+.tabs-bottom.tabs .panel-container {
+    width: 90%;
+    margin: 0 auto 30px;
 }
 
 .main-title.text-center::after {
@@ -874,6 +888,15 @@ button {
 
 .steps {
     counter-reset: stepsNum;
+}
+.lead {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.tabs-bottom, .tabs-bottom .etabs {
+    text-align: center;
 }
 
 /* Team
