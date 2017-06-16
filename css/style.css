@@ -839,13 +839,7 @@ button {
    }
 
 
-@media screen and (min-width: 768px) {
-  .state {
-    background-attachment:center;
-    background-size:cover;
-    
-   
-  }
+
 
   .dark-wrapper {
     background: #f3f3f3;
