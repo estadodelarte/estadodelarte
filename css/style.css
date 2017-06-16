@@ -46,13 +46,7 @@ img{max-width:100%;}
 
 a, a:hover, a:active{ outline:0px !important}
 
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 /* Primary Styles
 ---------------------------------*/
@@ -270,8 +264,6 @@ right:0;
 	display:block;
 	max-width:100%;
 	opacity:60%;
-
-
 }
 
 
@@ -411,6 +403,7 @@ button {
 	margin:auto;
 }
 
+
 #services .service-item:hover .service-icon {
   background: #fff;
 }
@@ -428,14 +421,12 @@ button {
 }
 
 #services .service-title h4{
-  margin:0 400px;
+  padding:100px 300px;
   
 }
 
 #services h3{
   color:#000000;
-
-  
 }
 
 
@@ -447,6 +438,20 @@ button {
 
 	height:97px;
 
+}
+
+
+.long-shadow {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 196px/1 Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+ 
+  text-shadow: 4px 4px 6px rgba(0,0,0,1) ;
 }
 
 
@@ -809,6 +814,8 @@ button {
 
 #state {
 
+	font-family: 'Montserrat', sans-serif;
+
 
 	
     }
@@ -821,6 +828,8 @@ button {
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	
+	
+	
 
 }
 
@@ -828,6 +837,7 @@ button {
 .state h2{
 
 	margin:0 200px;
+	font-size:20px;
 	text-align:center;
    }
 
@@ -1188,12 +1198,4 @@ input[type=date] {
 .delay-09s { 
 	animation-delay: 0.9s; 
 	-webkit-animation-delay: 0.9s; 
-}
-.delay-1s { 
-	animation-delay: 1s; 
-	-webkit-animation-delay: 1s; 
-}
-.delay-12s { 
-	animation-delay: 1.2s; 
-	-webkit-animation-delay: 1.2s; 
 }
