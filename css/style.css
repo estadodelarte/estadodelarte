@@ -121,15 +121,7 @@ iframe {
 	    transform: rotate(359deg)
 	}
 }
-#preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #FFF;
-    z-index: 9999999;
-}
+
 
 .main-section.paddind {
     padding:20px 0;
@@ -144,7 +136,7 @@ iframe {
     background-repeat:no-repeat;
 }
 
-Portfolio-nav{
+#Portfolio-nav{
     padding:0;
     margin:0 0 45px 0;
     list-style:none;
@@ -237,20 +229,7 @@ Portfolio-nav{
     top: 50%;
     margin: -20px 0 0 -20px;
 }
-.spinner {
-    height: 40px;
-    width: 40px;
-    position: relative;
-    -webkit-animation: rotation .8s infinite linear;
-    -moz-animation: rotation .8s infinite linear;
-    -o-animation: rotation .8s infinite linear;
-    animation: rotation .8s infinite linear;
-    border-left: 3px solid rgba(74,162,209,.15);
-    border-right: 3px solid rgba(74,162,209,.15);
-    border-bottom: 3px solid rgba(74,162,209,.15);
-    border-top: 3px solid rgba(74,162,209,.8);
-    border-radius: 100%;
-}
+
 /*-----------------------------------------------------------------------------------*/
 /*	01. GENERAL
 /*-----------------------------------------------------------------------------------*/
@@ -402,9 +381,7 @@ body {
    color:#fff;
     position: relative;
 }
-.no-bg {
-	background: none !important;
-}
+
 .inverse-wrapper h1,
 .inverse-wrapper h2,
 .inverse-wrapper h3,
@@ -521,18 +498,7 @@ hr {
 	top: 10px;
 	right: 10px;
 }
-.badge.blue {
-    background: #67b7d4
-}
-.badge.pink {
-    background: #ef6578
-}
-.badge.green {
-    background: #53cfc2
-}
-.badge.yellow {
-    background: #f5ae56
-}
+
 .caption-overlay {
 	position: relative;
 }
@@ -835,78 +801,7 @@ footer ul.circled li:before {
 .btn-blue.active {
     background: #358dbc !important
 }
-.btn-green:hover,
-.btn-green:focus,
-.btn-green:active,
-.btn-green.active {
-    background: #17a78b !important
-}
-.btn-lime:hover,
-.btn-lime:focus,
-.btn-lime:active,
-.btn-lime.active {
-    background: #9cae39 !important
-}
-.btn-red:hover,
-.btn-red:focus,
-.btn-red:active,
-.btn-red.active {
-    background: #cf4c45 !important
-}
-.btn-orange:hover,
-.btn-orange:focus,
-.btn-orange:active,
-.btn-orange.active {
-    background: #d96c4f !important
-}
-.btn-yellow:hover,
-.btn-yellow:focus,
-.btn-yellow:active,
-.btn-yellow.active {
-    background: #f0ba00 !important
-}
-.btn-purple:hover,
-.btn-purple:focus,
-.btn-purple:active,
-.btn-purple.active {
-    background: #8a4fa2 !important
-}
-.btn-pink:hover,
-.btn-pink:focus,
-.btn-pink:active,
-.btn-pink.active {
-    background: #bd78a9 !important
-}
-.btn-navy:hover,
-.btn-navy:focus,
-.btn-navy:active,
-.btn-navy.active {
-    background: #2c3e50 !important
-}
-.btn-gray:hover,
-.btn-gray:focus,
-.btn-gray:active,
-.btn-gray.active {
-    background: #859394 !important
-}
-.btn-brown:hover,
-.btn-brown:focus,
-.btn-brown:active,
-.btn-brown.active {
-    background: #7c6655 !important
-}
-.btn-mint:hover,
-.btn-mint:focus,
-.btn-mint:active,
-.btn-mint.active {
-    background: #4daaa4 !important
-}
-.btn-rose:hover,
-.btn-rose:focus,
-.btn-rose:active,
-.btn-rose.active {
-    background: #e3586b !important
-}
+
 .share-links ul li .btn {
     margin: 0
 }
@@ -1478,27 +1373,7 @@ footer ul.circled li:before {
     -khtml-opacity: 0;
     opacity: 0;
 }
-.tp-loader.spinner0 {
-    background: none !important;
-    height: 40px;
-    width: 40px;
-    -webkit-animation: rotation .8s infinite linear;
-    -moz-animation: rotation .8s infinite linear;
-    -o-animation: rotation .8s infinite linear;
-    animation: rotation .8s infinite linear;
-    border-left: 3px solid rgba(74,162,209,.15);
-    border-right: 3px solid rgba(74,162,209,.15);
-    border-bottom: 3px solid rgba(74,162,209,.15);
-    border-top: 3px solid rgba(74,162,209,.8);
-    border-radius: 100%;
-    margin: -20px -20px;
-    top: 50%;
-    left: 50%;
-    z-index: 1000;
-    position: absolute;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-}
+
 .tp-bannertimer {
     width: 100%;
     height: 10px;
@@ -2488,55 +2363,7 @@ figure a .text-overlay .info span {
 /*-----------------------------------------------------------------------------------*/
 /*	20. PROGRESS BAR
 /*-----------------------------------------------------------------------------------*/
-.progress-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.progress-list p {
-    margin-bottom: 5px
-}
-.progress-list li {
-    margin-bottom: 20px
-}
-.progress-list li em {
-    padding-left: 8px;
-    color: #4aa2d1;
-    font-style: normal;
-}
-.progress-list li em:before {
-    content: "-";
-    padding-right: 10px;
-    display: inline-block;
-}
-.progress.plain {
-    height: 15px;
-    margin-bottom: 0;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-    background: rgba(0,0,0,0.05);
-    box-shadow: none;
-    border-radius: 0;
-}
-.progress.plain .bar {
-    float: left;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-    width: 0;
-    height: 100%;
-    font-size: 12px;
-    color: #ffffff;
-    text-align: center;
-    text-shadow: none;
-    background: #4aa2d1;
-    box-shadow: none;
-    border-radius: 0;
-}
-.bordered .progress.plain {
-    background: none;
-    border: 1px solid #4aa2d1;
-}
-.bordered .progress.plain .bar {
-    background: #4aa2d1
-}
+
 /*-----------------------------------------------------------------------------------*/
 /*	21. TABS
 /*-----------------------------------------------------------------------------------*/
@@ -2791,10 +2618,10 @@ figure a .text-overlay .info span {
   
 }
 .parallax.parallax2 {
-  background:url('../img/photos/Estadoback.jpg')fixed;
+  background:url('../img/photos/Estadoback.jpg');
     background-size:cover;
     background-attachment:fixed;
-    position:relative;
+    
 }
 .parallax.parallax3 {
     background-image: url(style/images/art/parallax3.jpg)
