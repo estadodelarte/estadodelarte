@@ -2623,15 +2623,7 @@ figure a .text-overlay .info span {
     background-attachment:fixed;
     
 }
-.parallax.parallax3 {
-    background-image: url(style/images/art/parallax3.jpg)
-}
-.parallax.parallax4 {
-    background-image: url(style/images/art/parallax4.jpg)
-}
-.parallax.parallax5 {
-    background-image: url(style/images/art/parallax5.jpg)
-}
+
 /*-----------------------------------------------------------------------------------*/
 /*	25. FORMS
 /*-----------------------------------------------------------------------------------*/
