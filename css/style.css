@@ -888,7 +888,7 @@ footer ul.circled li:before {
     border: 0 !important;
 }
 .navbar .navbar-nav > li {
-    margin: 0 0 0 38px
+    margin: 10px 0 0 38px
 }
 .navbar .navbar-nav > li > a {
     padding: 40px 0px;
