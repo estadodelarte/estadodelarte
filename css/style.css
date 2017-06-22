@@ -1258,8 +1258,9 @@ footer ul.circled li:before {
 .tp-fullscreen-container,
 .tp-banner-container {
     width: 100% !important;
-    position: relative;
+    position: fixed;
     padding: 0;
+    
 }
 .revolution {
     z-index: 998
