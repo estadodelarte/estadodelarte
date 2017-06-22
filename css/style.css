@@ -939,7 +939,7 @@ footer ul.circled li:before {
 .navbar .nav > li > a:hover,
 .navbar .nav > li.current > a {
     background: none;
-    color: #4aa2d1 !important;
+    color: #E1BC29 !important;
 }
 .navbar .dropdown-menu li a:hover,
 .navbar .dropdown-menu li a.active {
