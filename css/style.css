@@ -217,7 +217,7 @@ h2 {
     line-height: 28px;
 }
 h3 {
-    font-size: 18px
+    font-size: 18px;
 }
 h4 {
     font-size: 18px;
@@ -1569,9 +1569,10 @@ video::-webkit-media-controls-start-playback-button {
     top: 99px;
 }
 .owl-carousel .owl-item .steps-item .icon img {
-    width: auto;
-    margin: 0 auto;
+    width:1000px;
+    height:1000px;
 }
+
 .owl-nav .owl-prev,
 .owl-nav .owl-next {
     z-index: 100;
@@ -1587,6 +1588,8 @@ video::-webkit-media-controls-start-playback-button {
     height: auto;
     opacity: 0;
 }
+
+
 .basic-slider:hover .owl-nav .owl-prev,
 .basic-slider:hover .owl-nav .owl-next {
     opacity: 1
