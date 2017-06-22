@@ -1251,16 +1251,22 @@ footer ul.circled li:before {
     -webkit-transform: scale(1);
     transform: scale(1);
 }
-/*-----------------------------------------------------------------------------------*/
+/*--------------------------q---------------------------------------------------------*/
 /*	07. REVOLUTION SLIDER
 /*-----------------------------------------------------------------------------------*/
 .tp-fullwidth-container,
 .tp-fullscreen-container,
 .tp-banner-container {
     width: 100% !important;
-    position: fixed;
+    position: relative;
     padding: 0;
-    
+
+}
+
+.tp-fullscreen
+
+position: fixed;
+
 }
 .revolution {
     z-index: 998
