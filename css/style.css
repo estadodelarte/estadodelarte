@@ -1262,9 +1262,8 @@ footer ul.circled li:before {
     padding: 0;
 
 }
-.revolution {
-    z-index: 5;
-}
+
+
 .revolution ul {
     display: none;
     margin: 0;
@@ -1299,7 +1298,7 @@ footer ul.circled li:before {
 }
 .tp-leftarrow.default,
 .tp-rightarrow.default {
-    z-index: 5;
+    
     cursor: pointer;
     position: relative;
     top: 50% !important;
