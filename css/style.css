@@ -1260,6 +1260,7 @@ footer ul.circled li:before {
     width: 100% !important;
     position: relative;
     padding: 0;
+    position:fixed;
 
 }
 
@@ -1667,7 +1668,7 @@ figure .link-out:hover {
     bottom: 0;
     left: 0;
     padding: 20px 25px;
-    z-index: 3;
+    
 }
 .blog-carousel-wrapper .post-grid .post .content {
     padding: 30px 40px;
