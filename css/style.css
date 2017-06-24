@@ -1261,7 +1261,9 @@ footer ul.circled li:before {
     position: relative;
     padding: 0;
 }
-
+.revolution {
+    z-index: 998;
+}
 .revolution ul {
     display: none;
     margin: 0;
