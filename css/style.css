@@ -186,7 +186,7 @@ p {
     margin: 0 0 20px
 }
 a {
-    color: #4aa2d1;
+    color: #337ab7;
     transition: all 200ms ease-in;
 }
 a:hover,
@@ -1261,9 +1261,7 @@ footer ul.circled li:before {
     position: relative;
     padding: 0;
 }
-.revolution {
-    z-index: 998
-}
+
 .revolution ul {
     display: none;
     margin: 0;
