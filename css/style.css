@@ -1206,8 +1206,8 @@ footer ul.circled li:before {
 .box-color.blue {
     background: #67b7d4
 }
-.box-color.pink {
-    background: #ef6578
+.box-color {
+    background: #E1BC29;
 }
 .box-color.green {
     background: #53cfc2
