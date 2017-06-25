@@ -1226,18 +1226,8 @@ footer ul.circled li:before {
     right: 10px;
     left: 10px;
 } 
-.box-color::before {
-    border-top: 1px solid rgba(255,255,255,0.6);
-    border-bottom: 1px solid rgba(255,255,255,0.6);
-    -webkit-transform: scale(0,1);
-    transform: scale(0,1);
-}
-.box-color::after {
-    border-right: 1px solid rgba(255,255,255,0.6);
-    border-left: 1px solid rgba(255,255,255,0.6);
-    -webkit-transform: scale(1,0);
-  transform: scale(1,0);
-}
+
+
 .box-color:hover::before,
 .box-color:hover::after {
     opacity: 1;
@@ -2924,101 +2914,9 @@ textarea {
 .vanilla-form label.custom-select select.error + i,
 .vanilla-form label.custom-select select.error:active + i,
 .vanilla-form label.custom-select select.error:focus + i,
-.state-error,
-.btn.state-error:hover {
-    background: #de4747 !important;
-    color: #FFF;
-}
-.vanilla-form .radio-set {
-    margin-bottom: 10px
-}
-.vanilla-form .radio-set label {
-    margin-right: 10px
-}
-.vanilla-form input[type="radio"],
-.vanilla-form input[type="checkbox"] {
-    position: absolute;
-    pointer-events: none;
-    opacity: 0;
-    margin: 0;
-    padding: 0;
-    height: 10px;
-}
-.vanilla-form input[type="radio"] + span,
-.vanilla-form input[type="checkbox"] + span {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    background-color: #ffffff;
-    border: 2px solid #cecece;
-    text-align: center;
-    vertical-align: text-bottom;
-    position: relative;
-}
-.vanilla-form input[type="radio"] + span::after,
-.vanilla-form input[type="checkbox"] + span::after {
-    content: "";
-    display: inline-block;
-    opacity: 0;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-}
-.vanilla-form input[type="radio"]:focus + span,
-.vanilla-form input[type="checkbox"]:focus + span,
-.vanilla-form input[type="radio"]:active + span,
-.vanilla-form input[type="checkbox"]:active + span {
-    border-color: #4aa2d1
-}
-.vanilla-form input[type="radio"]:checked + span::after,
-.vanilla-form input[type="checkbox"]:checked + span::after {
-    opacity: 1
-}
-.vanilla-form input[type="radio"].error + span,
-.vanilla-form input[type="checkbox"].error + span {
-    border-color: #de4747
-}
-.vanilla-form input[type="radio"] + span {
-    border-radius: 100%
-}
-.vanilla-form input[type="radio"] + span::after {
-    border-radius: 100%;
-    background-color: #4aa2d1;
-    border-color: #4aa2d1;
-}
-.vanilla-form input[type="radio"]:checked + span,
-.vanilla-form input[type="checkbox"]:checked + span {
-    border: 2px solid #4aa2d1
-}
-.vanilla-form input[type="radio"]:checked + span::after {
-    border: 4px solid #ffffff
-}
-.vanilla-form input[type="checkbox"] + span::after {
-    height: 40%;
-    width: 70%;
-    background-color: transparent;
-    border: 0 solid #4aa2d1;
-    top: 9px;
-    left: 2px;
-    -webkit-transform: rotate(-45deg) translate(50%, -75%);
-    -moz-transform: rotate(-45deg) translate(50%, -75%);
-    -ms-transform: rotate(-45deg) translate(50%, -75%);
-    -o-transform: rotate(-45deg) translate(50%, -75%);
-    transform: rotate(-45deg) translate(50%, -75%);
-}
-.vanilla-form input[type="checkbox"]:checked + span::after {
-    border-left-width: 0.2em;
-    border-bottom-width: 0.2em;
-}
-.vanilla-form .notification-box {
-    display: block;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
+
+
+
 .vanilla-form .notification-box.show-error {
     background-color: #f2dede;
     border-color: #ebccd1;
@@ -3083,10 +2981,7 @@ textarea {
 /*-----------------------------------------------------------------------------------*/
 /*	26. COMMENTS
 /*-----------------------------------------------------------------------------------*/
-#comments {
-    margin: 0;
-    position: relative;
-}
+
 #comments ol.commentlist {
     list-style: none;
     margin: 0;
@@ -3167,10 +3062,8 @@ textarea {
 
 /*-----------------------------------------------------------------------------------*/
 /*	29. MODAL
-/*-----------------------------------------------------------------------------------*/
 #contact-info {
     opacity: 0
-}
 
 .time_circles > div {
     position: absolute;
@@ -3193,23 +3086,11 @@ textarea {
 /*	30. CIRCLE PROGRESS
 /*-----------------------------------------------------------------------------------*/
 
-#fancybox-thumbs ul li.active {
-    border: none;
-    opacity: 1;
-    padding: 5px;
+.circle-progress > svg {
+    height: 100%;
+    display: block;
 }
 
-.fancybox-skin {
-    background: none;
-    color: #ececec;
-    border-radius: 0;
-}
-.fancybox-skin h3 {
-    color: #ececec
-}
-.fancybox-title-inside-wrap {
-    padding-top: 20px
-}
 /*-----------------------------------------------------------------------------------*/
 /*	32. DIVIDERS
 /*-----------------------------------------------------------------------------------*/
@@ -3557,9 +3438,7 @@ textarea {
     margin-top: 5px;
     display: block;
 }
-.flats {
-    margin-bottom: -50px
-}
+ 
 .flats .col-sm-2 {
     height: 160px
 }
