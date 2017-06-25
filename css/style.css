@@ -1175,7 +1175,7 @@ footer ul.circled li:before {
 /*	06. BOXES
 /*-----------------------------------------------------------------------------------*/
 .box {
-    background: #fff;
+   
     padding: 25px 30px;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
     transition: all 200ms ease-in;
@@ -2141,7 +2141,7 @@ blockquote small {
 .portfolio-filters {
   list-style: none;
   padding: 0;
-  margin-bottom: 50px;
+  
   text-align: center;
 }
 
@@ -2178,9 +2178,7 @@ blockquote small {
 }
 
 /* ---- 15.1 Full Width - Columns ---- */
-.portfolio-columns-fw, .portfolio-columns-boxed {
-  margin-top: 160px;
-}
+
 
 .portfolio-columns-fw .portfolio-item, .portfolio-columns-boxed .portfolio-item {
   padding-left: 0;
