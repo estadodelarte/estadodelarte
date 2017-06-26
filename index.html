@@ -244,8 +244,8 @@
 		     <a href="#" style="display:block;text-align:right;right:0;">Conócenos	<span class="linea-arrows-slim-right"></span></a>
 		   	</div>
 		   </div>
-		     <div>O simplemente aprecias el arte</h4>
-		     <p >Si conoces a personas muy creativas, tienes algún talento o tienes desde para donar, la cultura te lo agradecerá. Nosotros también, con contenido exclusivo de tus artistas favoritos, y más. Conecta con la cultura </p>
+		   <p class="lead text-center" style="color:#fff;"><h4>O simplemente aprecias el arte</h4>
+		     Si conoces a personas muy creativas, tienes algún talento o tienes desde para donar, la cultura te lo agradecerá. Nosotros también, con contenido exclusivo de tus artistas favoritos, y más. Conecta con la cultura </p>
 		   	</div>
 	 		</div>
       		</div>
@@ -497,65 +497,23 @@
           </header>
           
           <div class="contact-wrapper">
-            <!-- Map -->
-            <div id="map-canvas" class="gmap map-boxed"></div>
-
-            <!-- Show Info Button -->
-            <div class="show-info-link">
-              <a href="#" class="show-info"><i class="fa fa-info"></i><h6>Más info</h6></a>
-            </div>
-
-            <div class="container">
-              <div class="row ws-m">
-
-                <!-- Address Info -->
-                <div class="col-xs-offset-1 col-xs-11 col-md-offset-2 col-md-6 contact-info-wrapper">
-                  <address>
-                    <div class="row">
-
-                      <!-- Phone -->
-                      <div class="col-sm-6 address-group">
-                        <span>Phone</span>
-                        <a href="#">+ 123 4567 890</a>
-                        <a href="#">+ 123 7654 098</a>
-                      </div>
-
-                    </div><!-- / .row -->
-
-                    <div class="row">
-
-                      <!-- Email -->
-                      <div class="col-sm-6 address-group">
-                        <span>Email</span>
-                        <a href="mailto:rigodelgadillo@estadodelarte.mx">sayhello@email.com</a>
-                      </div>
-
-                    </div><!-- / .row -->
-
-                    <!-- Show Map Button -->
-                    <div class="row show-map-link">
-                      <a href="#" class="show-map"><span class="icon-map-pin"></span>Show on map</a>
-                    </div><!-- / .row -->
-                  </address>
-                </div><!-- / .contact-info-wrapper -->
-              </div><!-- / .row -->
-              
-              <!-- Contact Form -->
               <div class="row">
                 <form action="http://www.octarinethemes.com/demos/definity/assets/contact-form/contact-form.php" method="POST" id="contact-form-1" class="form-ajax">
                   <div class="col-md-offset-2 col-md-4 wow fadeInUp" data-wow-duration="1s">
 
                     <!-- Name -->
                     <div class="form-group">
-                      <input type="text" name="name" id="name-contact-1" class="form-control validate-locally" placeholder="Enter your name">
-                      <label for="name-contact-1">Nombre</label>
+                    	<label for="name-contact-1">Nombre</label>
+                      <input type="text" name="name" id="name-contact-1" class="form-control validate-locally" placeholder="Ingresa tu nombre">
+                      
                       <span class="pull-right alert-error"></span>
                     </div>
 
                     <!-- Email -->
                     <div class="form-group">
+                    <label for="email-contact-1">Cuenta de email</label>
                       <input type="email" name="email" id="email-contact-1" class="form-control validate-locally" placeholder="Ingresa tu email">
-                      <label for="email-contact-1">Nombre</label>
+                      
                       <span class="pull-right alert-error"></span>
                     </div>
 
@@ -565,11 +523,11 @@
 
                     <!-- Message -->
                     <div class="form-group">
-                      <textarea name="message" id="message-contact-1" class="form-control" rows="5" placeholder="Your Message"></textarea>
-                      <label for="message-contact-1">Mensaje</label>
+                      <textarea name="message" id="message-contact-1" class="form-control" rows="5" placeholder="Hola..."></textarea>
+                      
                     </div>
                     <div>
-                      <input type="submit" class="btn pull-right" value="Send Message">
+                      <input type="submit" class="btn pull-right" value="Enviar mensaje">
                     </div>
 
                     <!-- Ajax Message -->

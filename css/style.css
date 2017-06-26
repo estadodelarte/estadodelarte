@@ -266,7 +266,7 @@ body {
     background: #f3f3f3;
 }
 .inverse-wrapper {
-    background: #048A81;
+    background: #33A2CB ;
     color: #ECECEC;
     position: relative;
 }
@@ -3073,6 +3073,10 @@ blockquote small {
 .p-s-portfolio .portfolio-columns-boxed {
   margin-top: 0;
   padding-top: 160px;
+}
+
+.ws-m {
+  padding-bottom: 100px;
 }
 
 .project-nav nav .nav-btns {
