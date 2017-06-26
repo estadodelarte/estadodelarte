@@ -85,10 +85,7 @@ iframe {
     background: #fefac7; /* Safari */
     color: #2f2f2f;
 }
-::-moz-selection {
-    background: #fefac7; /* Firefox */
-    color: #2f2f2f;
-}
+
 @-webkit-keyframes rotation { 
 	from {
 	    -webkit-transform: rotate(0deg)
@@ -120,38 +117,10 @@ iframe {
 	to {
 	    transform: rotate(359deg)
 	}
+
 }
-#preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #FFF;
-    z-index: 9999999;
-}
-#status {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -20px 0 0 -20px;
-}
-.spinner {
-    height: 40px;
-    width: 40px;
-    position: relative;
-    -webkit-animation: rotation .8s infinite linear;
-    -moz-animation: rotation .8s infinite linear;
-    -o-animation: rotation .8s infinite linear;
-    animation: rotation .8s infinite linear;
-    border-left: 3px solid rgba(74,162,209,.15);
-    border-right: 3px solid rgba(74,162,209,.15);
-    border-bottom: 3px solid rgba(74,162,209,.15);
-    border-top: 3px solid rgba(74,162,209,.8);
-    border-radius: 100%;
-}
+
+
 /*-----------------------------------------------------------------------------------*/
 /*	01. GENERAL
 /*-----------------------------------------------------------------------------------*/
@@ -282,8 +251,8 @@ h2.post-title {
     background-size: cover;
 }
 .inner {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 70px;
+    padding-bottom: 40px;
 }
 .page-title .inner {
     padding-top: 40px;
@@ -1399,7 +1368,7 @@ video::-webkit-media-controls-start-playback-button {
     position: relative;
 }
 .steps .steps-item .number {
-    background: #4aa2d1;
+    background: #F9603D;
     color: #FFF;
     width: 46px;
     height: 46px;
@@ -3240,6 +3209,20 @@ blockquote small {
   bottom: 25px;
   -webkit-transition: bottom 0.5s;
           transition: bottom 0.5s;
+}
+
+.sec-heading {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.sec-heading .subheading {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  color: #999;
+  letter-spacing: 2.5px;
 }
 
 
