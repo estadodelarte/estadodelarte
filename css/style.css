@@ -118,13 +118,27 @@ h5 {
 }
 .light-wrapper,
 body {
-    background: #fcfcfc
+    background: #e6e6e6;
 }
 .dark-wrapper {
-    background: #33A2CB;
+
+
+  background : linear-gradient(180deg, rgba(59, 162, 202, 1) 7.92%, rgba(66, 165, 204, 1) 17.75%, rgba(84, 174, 209, 1) 31.63%, rgba(114, 188, 217, 1) 47.92%, rgba(157, 208, 228, 1) 66.05%, rgba(210, 234, 243, 1) 85.45%, rgba(255, 255, 255, 1) 100%);
+  border-style : Solid;
+  border-color : #FFFFFF;
+  border-color : rgba(255, 255, 255, 1);
+  border-width : 0px;
 }
+
+
 .inverse-wrapper {
-    background: #33A2CB ;
+    background: #fff ;
+    color: #ECECEC;
+    position: relative;
+}
+
+.app-wrapper {
+    background: #e6e6e6 ;
     color: #ECECEC;
     position: relative;
 }
