@@ -138,7 +138,7 @@ body {
 }
 
 .app-wrapper {
-    background: #e6e6e6 ;
+    background: #9DD9D2 ;
     color: #ECECEC;
     position: relative;
 }
@@ -1014,6 +1014,7 @@ textarea {
 }
 
 .contact-1 {
+    background:#fff;
     padding-left: 0;
     padding-right: 0;
     display:block;
