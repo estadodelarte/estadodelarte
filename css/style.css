@@ -38,10 +38,13 @@ body {
     color: #606060;
     font-family: 'Raleway', sans-serif;
 }
+
+
 .container {
     padding-right: 0;
     padding-left: 0;
 }
+
 body,
 li {
     line-height: 24px
@@ -122,12 +125,12 @@ body {
 }
 .dark-wrapper {
 
-
   background : linear-gradient(180deg, rgba(59, 162, 202, 1) 7.92%, rgba(66, 165, 204, 1) 17.75%, rgba(84, 174, 209, 1) 31.63%, rgba(114, 188, 217, 1) 47.92%, rgba(157, 208, 228, 1) 66.05%, rgba(210, 234, 243, 1) 85.45%, rgba(255, 255, 255, 1) 100%);
   border-style : Solid;
   border-color : #FFFFFF;
   border-color : rgba(255, 255, 255, 1);
   border-width : 0px;
+
 }
 
 
@@ -135,6 +138,7 @@ body {
     background: #fff ;
     color: #ECECEC;
     position: relative;
+
 }
 
 .app-wrapper {
@@ -178,7 +182,7 @@ ul {
     color: #4aa2d1
 }
 footer a {
-    color: inherit
+    color: #FFCD3A;
 }
 footer a:hover {
     color: #4aa2d1 !important
@@ -196,10 +200,14 @@ footer ul.tag-list li a {
 .sub-footer {
     background: #21262a;
     padding: 25px 0;
+    color:#FFCD3A;
+
 }
 .sub-footer p {
     padding: 0;
     margin: 3px 0 0 0;
+    display:inline-block;
+
 }
 .label {
     padding: .3em .65em .3em .65em;
@@ -232,7 +240,7 @@ footer ul.tag-list li a {
 /*-----------------------------------------------------------------------------------*/
 .btn {
     color: #FFF !important;
-    background: #4aa2d1;
+    
     border: 0;
     margin-bottom: 10px;
     margin-right: 4px;

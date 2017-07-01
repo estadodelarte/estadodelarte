@@ -73,14 +73,7 @@
 {
 	page-break-after:avoid
 }
-.navbar
-{
-	display:none
-}
-.label
-{
-	border:1px solid #000
-}
+
 
 }
 	@font-face
@@ -893,11 +886,7 @@
 }
 
 }
-	@media (min-width:1200px)
-{
-
-
-}
+	
 .btn
 {
 	display:inline-block;
@@ -968,12 +957,7 @@
 	color:#337ab7;
 	background-color:#fff
 }
-.btn-success
-{
-	color:#fff;
-	background-color:#5cb85c;
-	border-color:#4cae4c
-}
+
 .btn-success:hover,.btn-success:focus,.btn-success.focus,.btn-success:active,.btn-success.active,.open>.dropdown-toggle.btn-success
 {
 	color:#fff;
@@ -994,12 +978,7 @@
 	color:#5cb85c;
 	background-color:#fff
 }
-.btn-info
-{
-	color:#fff;
-	background-color:#5bc0de;
-	border-color:#46b8da
-}
+
 .btn-info:hover,.btn-info:focus,.btn-info.focus,.btn-info:active,.btn-info.active,.open>.dropdown-toggle.btn-info
 {
 	color:#fff;
@@ -1020,12 +999,7 @@
 	color:#5bc0de;
 	background-color:#fff
 }
-.btn-warning
-{
-	color:#fff;
-	background-color:#f0ad4e;
-	border-color:#eea236
-}
+
 .btn-warning:hover,.btn-warning:focus,.btn-warning.focus,.btn-warning:active,.btn-warning.active,.open>.dropdown-toggle.btn-warning
 {
 	color:#fff;
@@ -1046,12 +1020,7 @@
 	color:#f0ad4e;
 	background-color:#fff
 }
-.btn-danger
-{
-	color:#fff;
-	background-color:#d9534f;
-	border-color:#d43f3a
-}
+
 .btn-danger:hover,.btn-danger:focus,.btn-danger.focus,.btn-danger:active,.btn-danger.active,.open>.dropdown-toggle.btn-danger
 {
 	color:#fff;
@@ -1175,17 +1144,7 @@
 	-o-transition-timing-function:ease;
 	transition-timing-function:ease
 }
-.caret
-{
-	display:inline-block;
-	width:0;
-	height:0;
-	margin-left:2px;
-	vertical-align:middle;
-	border-top:4px dashed;
-	border-right:4px solid transparent;
-	border-left:4px solid transparent
-}
+
 .dropdown
 {
 	position:relative
@@ -1412,18 +1371,7 @@
 	white-space:nowrap;
 	vertical-align:middle
 }
-.input-group-addon
-{
-	padding:6px 12px;
-	font-size:14px;
-	font-weight:normal;
-	line-height:1;
-	color:#555;
-	text-align:center;
-	background-color:#eee;
-	border:1px solid #ccc;
-	border-radius:4px
-}
+
 .input-group-addon.input-sm
 {
 	padding:5px 10px;
@@ -1641,10 +1589,7 @@
 	margin-top:2px;
 	margin-left:0
 }
-.nav-justified
-{
-	width:100%
-}
+
 .nav-justified>li
 {
 	float:none
@@ -1672,10 +1617,7 @@
 }
 
 }
-.nav-tabs-justified
-{
-	border-bottom:0
-}
+
 .nav-tabs-justified>li>a
 {
 	margin-right:0;
